@@ -1,7 +1,7 @@
 platform :ios, '10.0'
 use_frameworks!
 
-target 'Eoviz Presence' do
+target 'iOS Template' do
   pod 'Alamofire'
   pod 'SVProgressHUD'
   pod 'SwiftyJSON'
