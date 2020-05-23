@@ -1,0 +1,23 @@
+
+/* Class = "UILabel"; text = "09/03/2020"; ObjectID = "4na-m0-kU2"; */
+"4na-m0-kU2.text" = "End";
+
+/* Class = "UILabel"; text = "Daftar Karyawan"; ObjectID = "8ZK-vD-DNw"; */
+"8ZK-vD-DNw.text" = "Employee List";
+
+/* Class = "UILabel"; text = "Tanggal"; ObjectID = "MMf-j1-qXz"; */
+"MMf-j1-qXz.text" = "Date";
+
+/* Class = "UILabel"; text = "10/02/2020"; ObjectID = "MON-8N-fdQ"; */
+"MON-8N-fdQ.text" = "Start";
+
+/* Class = "UILabel"; text = "Filter"; ObjectID = "QHf-iS-N3E"; */
+"QHf-iS-N3E.text" = "Filter";
+
+/* Class = "UILabel"; text = "Silahkan pilih tanggal lain, Anda mempunyai shift di tanggal tersebut. (pesan dari service)"; ObjectID = "qG2-JI-MZs"; */
+"qG2-JI-MZs.text" = "Silahkan pilih tanggal lain, Anda mempunyai shift di tanggal tersebut. (pesan dari service)";
+
+/* Class = "UILabel"; text = "Terapkan"; ObjectID = "vNY-0y-ef8"; */
+"vNY-0y-ef8.text" = "Apply";
+
+"nz3-lh-yCZ.text" = "Apply";

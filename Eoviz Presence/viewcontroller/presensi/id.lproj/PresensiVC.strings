@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Jam Keluar"; ObjectID = "3AC-44-DRc"; */
+"3AC-44-DRc.text" = "Jam Keluar";
+
+/* Class = "UILabel"; text = "05:35:45 WIB"; ObjectID = "Don-Bw-lJW"; */
+"Don-Bw-lJW.text" = "05:35:45 WIB";
+
+/* Class = "UILabel"; text = "Masuk"; ObjectID = "E0z-8Y-IVj"; */
+"E0z-8Y-IVj.text" = "Masuk";
+
+/* Class = "UILabel"; text = "Senin, 10 Februari 2020"; ObjectID = "FJW-HC-3jb"; */
+"FJW-HC-3jb.text" = "Senin, 10 Februari 2020";
+
+/* Class = "UILabel"; text = "Shift I"; ObjectID = "XFn-ku-hKg"; */
+"XFn-ku-hKg.text" = "Shift I";
+
+/* Class = "UILabel"; text = "Keluar"; ObjectID = "Xob-CH-RBq"; */
+"Xob-CH-RBq.text" = "Keluar";
+
+/* Class = "UILabel"; text = "14:00:00"; ObjectID = "Z8D-oA-zxO"; */
+"Z8D-oA-zxO.text" = "14:00:00";
+
+/* Class = "UILabel"; text = "Jam Masuk"; ObjectID = "iD3-eS-Hbe"; */
+"iD3-eS-Hbe.text" = "Jam Masuk";
+
+/* Class = "UILabel"; text = "06:00:00"; ObjectID = "k6M-bI-TDB"; */
+"k6M-bI-TDB.text" = "06:00:00";
+
+/* Class = "UILabel"; text = "Presensi"; ObjectID = "rLP-RZ-QoI"; */
+"rLP-RZ-QoI.text" = "Presensi";

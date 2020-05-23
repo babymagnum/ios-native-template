@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "06:00:00"; ObjectID = "1jH-QH-djX"; */
+"1jH-QH-djX.text" = "06:00:00";
+
+/* Class = "UILabel"; text = "14:00:00"; ObjectID = "7ln-0A-ZXd"; */
+"7ln-0A-ZXd.text" = "14:00:00";
+
+/* Class = "UILabel"; text = "Jam Masuk"; ObjectID = "CBN-qz-ztT"; */
+"CBN-qz-ztT.text" = "Jam Masuk";
+
+/* Class = "UILabel"; text = "Jam Keluar"; ObjectID = "LaS-6N-yPb"; */
+"LaS-6N-yPb.text" = "Jam Keluar";
+
+/* Class = "UILabel"; text = "Presensi"; ObjectID = "Nb2-75-Qc8"; */
+"Nb2-75-Qc8.text" = "Presensi";
+
+/* Class = "UILabel"; text = "Cepat, Anda berada di luar area presensi !"; ObjectID = "P8i-T9-NHM"; */
+"P8i-T9-NHM.text" = "Cepat, Anda berada di luar area presensi !";
+
+/* Class = "UIButton"; normalTitle = "05:35:45 WIB"; ObjectID = "SQE-AF-w1A"; */
+"SQE-AF-w1A.normalTitle" = "05:35:45 WIB";
+
+/* Class = "UILabel"; text = "Shift I"; ObjectID = "dhg-8b-7Sl"; */
+"dhg-8b-7Sl.text" = "Shift I";
+
+/* Class = "UIButton"; normalTitle = "You are on the zone !"; ObjectID = "jXy-pe-1Dq"; */
+"jXy-pe-1Dq.normalTitle" = "Kamu berada dalam zona!";
+
+/* Class = "UIButton"; normalTitle = "Presensi Masuk"; ObjectID = "rZ3-Ve-wQu"; */
+"rZ3-Ve-wQu.normalTitle" = "Presensi Masuk";

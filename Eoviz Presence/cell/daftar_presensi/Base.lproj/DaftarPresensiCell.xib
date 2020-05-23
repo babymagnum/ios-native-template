@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DaftarPresensiCell" customModule="Eoviz_Presence" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="301" height="142"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mag-j5-OzM" customClass="CustomView" customModule="Eoviz_Presence" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="301" height="142"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senin, 10 Februari 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYI-MD-pIX" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                <rect key="frame" x="13" y="15" width="275" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Regular"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shift I" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0k-m5-rax" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                <rect key="frame" x="13" y="39.5" width="275" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1450980392" green="0.21176470589999999" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTA-PB-ASn" customClass="CustomButton" customModule="Eoviz_Presence" customModuleProvider="target">
+                                <rect key="frame" x="13" y="65" width="76" height="24"/>
+                                <color key="backgroundColor" red="0.61176470588235299" green="0.80000000000000004" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="9" minY="3" maxX="9" maxY="3"/>
+                                <state key="normal" title="On Time">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isAllRounded" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eME-oA-SrU">
+                                <rect key="frame" x="13" y="100" width="275" height="20.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="4QH-ht-P1s">
+                                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jam Masuk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sP7-9U-H85" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="63" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.20392156859999999" green="0.4941176471" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Regular"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="06:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5uZ-TR-PcR" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                                <rect key="frame" x="70" y="0.0" width="62.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1450980392" green="0.21176470589999999" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="kjJ-xh-94c">
+                                        <rect key="frame" x="142.5" y="0.0" width="132.5" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jam Masuk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nc4-oV-WW9" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="63" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.20392156859999999" green="0.4941176471" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Regular"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05:45:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="73h-Ti-b5t" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                                <rect key="frame" x="70" y="0.0" width="62.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1450980392" green="0.21176470589999999" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="3bz-Zh-ltL"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oEZ-Ym-aMh">
+                                <rect key="frame" x="13" y="123.5" width="275" height="20.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="qJq-S6-p9V">
+                                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jam Keluar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3fb-tI-ZwV" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="63" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.85098039215686272" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Regular"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="06:00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GMh-rz-nf4" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                                <rect key="frame" x="70" y="0.0" width="62.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1450980392" green="0.21176470589999999" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Ohp-NX-t5W">
+                                        <rect key="frame" x="142.5" y="0.0" width="132.5" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jam Keluar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Slo-vt-kfO" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="63" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.85098039215686272" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Regular"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05:45:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ckb-JC-7rS" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                                <rect key="frame" x="70" y="0.0" width="62.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1450980392" green="0.21176470589999999" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="xiY-h3-1hV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DYI-MD-pIX" secondAttribute="trailing" constant="13" id="7t4-SG-Jkf"/>
+                            <constraint firstItem="y0k-m5-rax" firstAttribute="leading" secondItem="mag-j5-OzM" secondAttribute="leading" constant="13" id="DOZ-F2-rYm"/>
+                            <constraint firstItem="eME-oA-SrU" firstAttribute="top" secondItem="tTA-PB-ASn" secondAttribute="bottom" constant="11" id="OAY-gx-ugh"/>
+                            <constraint firstItem="tTA-PB-ASn" firstAttribute="leading" secondItem="mag-j5-OzM" secondAttribute="leading" constant="13" id="OWi-YJ-9eY"/>
+                            <constraint firstAttribute="trailing" secondItem="eME-oA-SrU" secondAttribute="trailing" constant="13" id="Om9-27-TXn"/>
+                            <constraint firstItem="oEZ-Ym-aMh" firstAttribute="top" secondItem="eME-oA-SrU" secondAttribute="bottom" constant="3" id="QdB-Ic-5fF"/>
+                            <constraint firstItem="DYI-MD-pIX" firstAttribute="top" secondItem="mag-j5-OzM" secondAttribute="top" constant="15" id="QeP-L7-rmd"/>
+                            <constraint firstAttribute="trailing" secondItem="y0k-m5-rax" secondAttribute="trailing" constant="13" id="SM1-gs-EUm"/>
+                            <constraint firstAttribute="trailing" secondItem="oEZ-Ym-aMh" secondAttribute="trailing" constant="13" id="Tuk-B9-o7b"/>
+                            <constraint firstItem="oEZ-Ym-aMh" firstAttribute="leading" secondItem="mag-j5-OzM" secondAttribute="leading" constant="13" id="UKa-Mi-oxd"/>
+                            <constraint firstItem="tTA-PB-ASn" firstAttribute="top" secondItem="y0k-m5-rax" secondAttribute="bottom" constant="5" id="aRT-C4-ARo"/>
+                            <constraint firstItem="y0k-m5-rax" firstAttribute="top" secondItem="DYI-MD-pIX" secondAttribute="bottom" constant="4" id="hrL-1e-Cpi"/>
+                            <constraint firstItem="DYI-MD-pIX" firstAttribute="leading" secondItem="mag-j5-OzM" secondAttribute="leading" constant="13" id="kNI-hF-YZI"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tTA-PB-ASn" secondAttribute="trailing" constant="13" id="pql-P5-54s"/>
+                            <constraint firstItem="eME-oA-SrU" firstAttribute="leading" secondItem="mag-j5-OzM" secondAttribute="leading" constant="13" id="qBz-6n-9ZM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mag-j5-OzM" secondAttribute="trailing" id="Qrb-Eq-Dbr"/>
+                <constraint firstItem="mag-j5-OzM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RrX-3D-ArM"/>
+                <constraint firstAttribute="bottom" secondItem="mag-j5-OzM" secondAttribute="bottom" id="SMQ-CD-7sk"/>
+                <constraint firstItem="mag-j5-OzM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="atR-lg-uoA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="buttonStatus" destination="tTA-PB-ASn" id="jXz-Kg-sgj"/>
+                <outlet property="labelDate" destination="DYI-MD-pIX" id="7uc-1K-zCe"/>
+                <outlet property="labelJamKeluar" destination="GMh-rz-nf4" id="xyK-3q-Tmh"/>
+                <outlet property="labelJamKeluarReal" destination="ckb-JC-7rS" id="iqZ-Gx-vhX"/>
+                <outlet property="labelJamMasuk" destination="5uZ-TR-PcR" id="brS-ea-a2X"/>
+                <outlet property="labelJamMasukReal" destination="73h-Ti-b5t" id="W10-oI-5Xv"/>
+                <outlet property="labelShiftName" destination="y0k-m5-rax" id="IEU-Um-ckh"/>
+                <outlet property="viewParent" destination="mag-j5-OzM" id="76p-DA-mSZ"/>
+            </connections>
+            <point key="canvasLocation" x="109.42028985507247" y="120.87053571428571"/>
+        </collectionViewCell>
+    </objects>
+</document>

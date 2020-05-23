@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CutiTahunanCell" customModule="Eoviz_Presence" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wbk-HP-qqJ">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18/02/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQe-iS-FHH" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                <rect key="frame" x="15" y="0.0" width="211" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7r6-Rf-Olw">
+                                <rect key="frame" x="236" y="9.5" width="51" height="31"/>
+                                <color key="onTintColor" red="0.20392156859999999" green="0.4941176471" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </switch>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kev-X9-eTJ">
+                                <rect key="frame" x="0.0" y="49" width="300" height="1"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="HvW-uI-Ka2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7r6-Rf-Olw" firstAttribute="centerY" secondItem="wbk-HP-qqJ" secondAttribute="centerY" id="Avq-wK-8Nq"/>
+                            <constraint firstItem="7r6-Rf-Olw" firstAttribute="leading" secondItem="QQe-iS-FHH" secondAttribute="trailing" constant="10" id="HOb-Ov-gLb"/>
+                            <constraint firstItem="kev-X9-eTJ" firstAttribute="top" secondItem="QQe-iS-FHH" secondAttribute="bottom" id="LSo-6M-FpC"/>
+                            <constraint firstAttribute="trailing" secondItem="kev-X9-eTJ" secondAttribute="trailing" id="OPZ-Ud-oVE"/>
+                            <constraint firstItem="QQe-iS-FHH" firstAttribute="leading" secondItem="wbk-HP-qqJ" secondAttribute="leading" constant="15" id="TE7-Vr-YFD"/>
+                            <constraint firstItem="QQe-iS-FHH" firstAttribute="top" secondItem="wbk-HP-qqJ" secondAttribute="top" id="VU2-9I-oWx"/>
+                            <constraint firstAttribute="bottom" secondItem="kev-X9-eTJ" secondAttribute="bottom" id="c02-eO-rHk"/>
+                            <constraint firstAttribute="trailing" secondItem="7r6-Rf-Olw" secondAttribute="trailing" constant="15" id="erN-oe-dhw"/>
+                            <constraint firstItem="kev-X9-eTJ" firstAttribute="leading" secondItem="wbk-HP-qqJ" secondAttribute="leading" id="zTB-wt-Vjp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wbk-HP-qqJ" secondAttribute="bottom" id="NMW-gr-t6y"/>
+                <constraint firstItem="wbk-HP-qqJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QqX-1j-2rJ"/>
+                <constraint firstAttribute="trailing" secondItem="wbk-HP-qqJ" secondAttribute="trailing" id="YQW-zT-9Bd"/>
+                <constraint firstItem="wbk-HP-qqJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xzT-m7-JvQ"/>
+            </constraints>
+            <connections>
+                <outlet property="labelDate" destination="QQe-iS-FHH" id="U87-wH-fk6"/>
+                <outlet property="switchApproval" destination="7r6-Rf-Olw" id="T3C-7L-1he"/>
+                <outlet property="viewDivider" destination="kev-X9-eTJ" id="dtd-5N-GBi"/>
+                <outlet property="viewParent" destination="wbk-HP-qqJ" id="whv-93-khX"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="141.29464285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Izin & Cuti"; ObjectID = "Gzc-RA-jmI"; */
+"Gzc-RA-jmI.normalTitle" = "Izin & Cuti";
+
+/* Class = "UIButton"; normalTitle = "Tukar Shift"; ObjectID = "Sno-ew-W82"; */
+"Sno-ew-W82.normalTitle" = "Tukar Shift";
+
+/* Class = "UILabel"; text = "Persetujuan"; ObjectID = "VfU-MR-9a0"; */
+"VfU-MR-9a0.text" = "Persetujuan";
+
+/* Class = "UILabel"; text = "Belum ada pengajuan tukar shift."; ObjectID = "s4R-B3-PyS"; */
+"s4R-B3-PyS.text" = "Belum ada pengajuan tukar shift.";

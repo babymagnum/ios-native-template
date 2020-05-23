@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Jam Keluar"; ObjectID = "3fb-tI-ZwV"; */
+"3fb-tI-ZwV.text" = "Jam Keluar";
+
+/* Class = "UILabel"; text = "06:00:00"; ObjectID = "5uZ-TR-PcR"; */
+"5uZ-TR-PcR.text" = "06:00:00";
+
+/* Class = "UILabel"; text = "05:45:00"; ObjectID = "73h-Ti-b5t"; */
+"73h-Ti-b5t.text" = "05:45:00";
+
+/* Class = "UILabel"; text = "Senin, 10 Februari 2020"; ObjectID = "DYI-MD-pIX"; */
+"DYI-MD-pIX.text" = "Senin, 10 Februari 2020";
+
+/* Class = "UILabel"; text = "06:00:00"; ObjectID = "GMh-rz-nf4"; */
+"GMh-rz-nf4.text" = "06:00:00";
+
+/* Class = "UILabel"; text = "Jam Keluar"; ObjectID = "Slo-vt-kfO"; */
+"Slo-vt-kfO.text" = "Jam Keluar";
+
+/* Class = "UILabel"; text = "05:45:00"; ObjectID = "ckb-JC-7rS"; */
+"ckb-JC-7rS.text" = "05:45:00";
+
+/* Class = "UILabel"; text = "Jam Masuk"; ObjectID = "nc4-oV-WW9"; */
+"nc4-oV-WW9.text" = "Jam Masuk";
+
+/* Class = "UILabel"; text = "Jam Masuk"; ObjectID = "sP7-9U-H85"; */
+"sP7-9U-H85.text" = "Jam Masuk";
+
+/* Class = "UIButton"; normalTitle = "On Time"; ObjectID = "tTA-PB-ASn"; */
+"tTA-PB-ASn.normalTitle" = "On Time";

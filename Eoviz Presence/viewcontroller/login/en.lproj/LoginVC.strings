@@ -1,0 +1,17 @@
+
+/* Class = "UIButton"; normalTitle = "New Device"; ObjectID = "5e1-7O-qd8"; */
+"5e1-7O-qd8.normalTitle" = "New Device";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "fQ9-5V-tw1"; */
+"fQ9-5V-tw1.text" = "Password";
+
+/* Class = "UILabel"; text = "Username/Email"; ObjectID = "vCp-o8-Nn3"; */
+"vCp-o8-Nn3.text" = "Username/Email";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "vI6-mn-hzb"; */
+"vI6-mn-hzb.text" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "zMI-bZ-DXz"; */
+"zMI-bZ-DXz.normalTitle" = "Forgot Password?";
+
+"5e1-7O-qd8.normalTitle" = "New Device";

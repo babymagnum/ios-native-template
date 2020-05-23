@@ -1,0 +1,6 @@
+framework module DIKit {
+  umbrella header "DIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

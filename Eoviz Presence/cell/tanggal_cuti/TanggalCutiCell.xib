@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TanggalCutiCell" customModule="Eoviz_Presence" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPS-gV-tDD">
+                        <rect key="frame" x="0.0" y="0.0" width="263" height="49"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18/02/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2c-D7-caM" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                <rect key="frame" x="16" y="0.0" width="231" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="I2c-D7-caM" firstAttribute="top" secondItem="OPS-gV-tDD" secondAttribute="top" id="2e0-T7-4ga"/>
+                            <constraint firstAttribute="trailing" secondItem="I2c-D7-caM" secondAttribute="trailing" constant="16" id="Noz-I3-SXY"/>
+                            <constraint firstAttribute="bottom" secondItem="I2c-D7-caM" secondAttribute="bottom" id="gFJ-Pi-31P"/>
+                            <constraint firstItem="I2c-D7-caM" firstAttribute="leading" secondItem="OPS-gV-tDD" secondAttribute="leading" constant="16" id="t0N-kF-5In"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fof-nT-ngW">
+                        <rect key="frame" x="273" y="11.5" width="27" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Fof-nT-ngW" secondAttribute="height" multiplier="1:1" id="aVp-uC-dB8"/>
+                        </constraints>
+                        <state key="normal" image="delete"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1bn-zZ-MHa">
+                        <rect key="frame" x="0.0" y="49" width="263" height="1"/>
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="pPa-FP-BDl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="1bn-zZ-MHa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4pc-en-DXP"/>
+                <constraint firstAttribute="bottom" secondItem="1bn-zZ-MHa" secondAttribute="bottom" id="BHQ-sN-PCg"/>
+                <constraint firstItem="OPS-gV-tDD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Eww-jU-3ry"/>
+                <constraint firstItem="OPS-gV-tDD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ICs-xJ-ygq"/>
+                <constraint firstItem="1bn-zZ-MHa" firstAttribute="top" secondItem="OPS-gV-tDD" secondAttribute="bottom" id="JBz-wZ-8M7"/>
+                <constraint firstItem="Fof-nT-ngW" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="RZr-KI-4Df"/>
+                <constraint firstItem="Fof-nT-ngW" firstAttribute="leading" secondItem="1bn-zZ-MHa" secondAttribute="trailing" constant="10" id="Tit-7i-jR3"/>
+                <constraint firstItem="Fof-nT-ngW" firstAttribute="leading" secondItem="OPS-gV-tDD" secondAttribute="trailing" constant="10" id="feq-xo-4lO"/>
+                <constraint firstItem="Fof-nT-ngW" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.09" id="tY8-hb-2aZ"/>
+                <constraint firstAttribute="trailing" secondItem="Fof-nT-ngW" secondAttribute="trailing" id="yb6-Ib-H5w"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="buttonDelete" destination="Fof-nT-ngW" id="Lr7-mR-hIA"/>
+                <outlet property="labelDate" destination="I2c-D7-caM" id="vYQ-gU-ykf"/>
+                <outlet property="viewDateParent" destination="OPS-gV-tDD" id="hC6-dx-lg7"/>
+                <outlet property="viewDivider" destination="1bn-zZ-MHa" id="YiB-cz-9OC"/>
+            </connections>
+            <point key="canvasLocation" x="254" y="153"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="delete" width="32" height="32"/>
+    </resources>
+</document>

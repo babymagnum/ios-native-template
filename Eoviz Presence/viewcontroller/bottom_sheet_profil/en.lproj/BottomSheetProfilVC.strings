@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Ubah Foto Profil"; ObjectID = "OhG-mu-p1n"; */
+"OhG-mu-p1n.text" = "Change Profile Photo";
+
+/* Class = "UILabel"; text = "Pilih dari Album Foto"; ObjectID = "fCA-gO-mGk"; */
+"fCA-gO-mGk.text" = "Take From Gallery";
+
+/* Class = "UILabel"; text = "Ambil Foto"; ObjectID = "t3J-g8-K86"; */
+"t3J-g8-K86.text" = "Take Photo";

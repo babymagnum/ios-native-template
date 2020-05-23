@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "05:59:00 WIB"; ObjectID = "8Ls-Rv-2Gd"; */
+"8Ls-Rv-2Gd.text" = "05:59:00 WIB";
+
+/* Class = "UILabel"; text = "Jam Kerja Tim"; ObjectID = "9J8-N6-vly"; */
+"9J8-N6-vly.text" = "Team Work Hours";
+
+/* Class = "UILabel"; text = "Tukar Shift"; ObjectID = "CAM-i9-kVT"; */
+"CAM-i9-kVT.text" = "Change Shift";
+
+/* Class = "UILabel"; text = "Presensi"; ObjectID = "D45-cc-5mv"; */
+"D45-cc-5mv.text" = "Presence";
+
+/* Class = "UILabel"; text = "Shift I,"; ObjectID = "H3Z-UO-PBl"; */
+"H3Z-UO-PBl.text" = "Shift I,";
+
+/* Class = "UILabel"; text = "Izin & Cuti"; ObjectID = "LSj-BD-ezr"; */
+"LSj-BD-ezr.text" = "Permission & Leave";
+
+/* Class = "UILabel"; text = "Halo, Sandra"; ObjectID = "LUT-uh-pmb"; */
+"LUT-uh-pmb.text" = "Halo, Sandra";
+
+/* Class = "UILabel"; text = "Terlambat & Tidak Memenuhi"; ObjectID = "gGY-2k-PhO"; */
+"gGY-2k-PhO.text" = "Terlambat & Tidak Memenuhi";

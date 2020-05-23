@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Eoviz Presence/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="id">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4" build-num="11E146"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>Eoviz Presence</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>Eoviz Presence</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
+        <source>We need your camera access to take photo</source>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationUsageDescription" xml:space="preserve">
+        <source>We need your location to draw marker in maps.</source>
+        <note>Privacy - Location Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
+        <source>We need your location to draw marker in maps.</source>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+        <source>We need your photo library access to accesing photo library</source>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Eoviz Presence/viewcontroller/forgot_password_email/Base.lproj/ForgotPasswordEmailVC.xib" source-language="en" target-language="id" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4" build-num="11E146"/>
+    </header>
+    <body>
+      <trans-unit id="69E-OP-AQm.text" xml:space="preserve">
+        <source>Forgot Password</source>
+        <target>Lupa Kata Sandi</target>
+        <note>Class = "UILabel"; text = "Forgot Password"; ObjectID = "69E-OP-AQm";</note>
+      </trans-unit>
+      <trans-unit id="SNx-r0-7M6.text" xml:space="preserve">
+        <source>Email</source>
+        <target>Email</target>
+        <note>Class = "UILabel"; text = "Email"; ObjectID = "SNx-r0-7M6";</note>
+      </trans-unit>
+      <trans-unit id="aI1-Nh-PDH.text" xml:space="preserve">
+        <source>Send</source>
+        <target>Kirim</target>
+        <note>Class = "UILabel"; text = "Send"; ObjectID = "aI1-Nh-PDH";</note>
+      </trans-unit>
+      <trans-unit id="hD4-uG-hvM.text" xml:space="preserve">
+        <source>Confirm Password</source>
+        <target>Confirm Password</target>
+        <note>Class = "UILabel"; text = "Confirm Password"; ObjectID = "hD4-uG-hvM";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Eoviz Presence/viewcontroller/forgot_password_pin/Base.lproj/ForgotPasswordPinVC.xib" source-language="en" target-language="id" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4" build-num="11E146"/>
+    </header>
+    <body>
+      <trans-unit id="J49-FB-GM9.text" xml:space="preserve">
+        <source>Submit</source>
+        <target>Kirim</target>
+        <note>Class = "UILabel"; text = "Submit"; ObjectID = "J49-FB-GM9";</note>
+      </trans-unit>
+      <trans-unit id="d1g-Fu-aEB.text" xml:space="preserve">
+        <source>Forgot Password</source>
+        <target>Lupa Kata Sandi</target>
+        <note>Class = "UILabel"; text = "Forgot Password"; ObjectID = "d1g-Fu-aEB";</note>
+      </trans-unit>
+      <trans-unit id="dxt-Nr-swc.text" xml:space="preserve">
+        <source>01:32</source>
+        <target>01:32</target>
+        <note>Class = "UILabel"; text = "01:32"; ObjectID = "dxt-Nr-swc";</note>
+      </trans-unit>
+      <trans-unit id="xNQ-gT-nfc.text" xml:space="preserve">
+        <source>Please check your email to get the code.</source>
+        <target>Silakan periksa email Anda untuk mendapatkan kode.</target>
+        <note>Class = "UILabel"; text = "Please check your email to get the code."; ObjectID = "xNQ-gT-nfc";</note>
+      </trans-unit>
+      <trans-unit id="xpa-az-Slt.text" xml:space="preserve">
+        <source>Code Verification</source>
+        <target>Kode Verifikasi</target>
+        <note>Class = "UILabel"; text = "Code Verification"; ObjectID = "xpa-az-Slt";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Eoviz Presence/viewcontroller/forgot_password/Base.lproj/ForgotPasswordVC.xib" source-language="en" target-language="id" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4" build-num="11E146"/>
+    </header>
+    <body>
+      <trans-unit id="697-dl-2k4.text" xml:space="preserve">
+        <source>Confirm Password</source>
+        <target>Konfirmasi Kata Sandi</target>
+        <note>Class = "UILabel"; text = "Confirm Password"; ObjectID = "697-dl-2k4";</note>
+      </trans-unit>
+      <trans-unit id="HSE-Tb-KAa.text" xml:space="preserve">
+        <source>New Password</source>
+        <target>Kata Sandi Baru</target>
+        <note>Class = "UILabel"; text = "New Password"; ObjectID = "HSE-Tb-KAa";</note>
+      </trans-unit>
+      <trans-unit id="jbD-KK-T5N.text" xml:space="preserve">
+        <source>Forgot password</source>
+        <target>Lupa Kata Sandi</target>
+        <note>Class = "UILabel"; text = "Forgot password"; ObjectID = "jbD-KK-T5N";</note>
+      </trans-unit>
+      <trans-unit id="wJO-4V-Z1N.text" xml:space="preserve">
+        <source>Send</source>
+        <target>Kirim</target>
+        <note>Class = "UILabel"; text = "Send"; ObjectID = "wJO-4V-Z1N";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Eoviz Presence/viewcontroller/login/Base.lproj/LoginVC.xib" source-language="en" target-language="id" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4" build-num="11E146"/>
+    </header>
+    <body>
+      <trans-unit id="5e1-7O-qd8.normalTitle" xml:space="preserve">
+        <source>New Device</source>
+        <target>Perangkat Baru</target>
+        <note>Class = "UIButton"; normalTitle = "New Device"; ObjectID = "5e1-7O-qd8";</note>
+      </trans-unit>
+      <trans-unit id="fQ9-5V-tw1.text" xml:space="preserve">
+        <source>Password</source>
+        <target>Kata Sandi</target>
+        <note>Class = "UILabel"; text = "Password"; ObjectID = "fQ9-5V-tw1";</note>
+      </trans-unit>
+      <trans-unit id="vCp-o8-Nn3.text" xml:space="preserve">
+        <source>Username/Email</source>
+        <target>Nama Pengguna/Email</target>
+        <note>Class = "UILabel"; text = "Username/Email"; ObjectID = "vCp-o8-Nn3";</note>
+      </trans-unit>
+      <trans-unit id="vI6-mn-hzb.text" xml:space="preserve">
+        <source>Login</source>
+        <target>Login</target>
+        <note>Class = "UILabel"; text = "Login"; ObjectID = "vI6-mn-hzb";</note>
+      </trans-unit>
+      <trans-unit id="zMI-bZ-DXz.normalTitle" xml:space="preserve">
+        <source>Forgot Password?</source>
+        <target>Lupa Kata Sandi?</target>
+        <note>Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "zMI-bZ-DXz";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Eoviz Presence/viewcontroller/new_device/Base.lproj/NewDeviceVC.xib" source-language="en" target-language="id" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4" build-num="11E146"/>
+    </header>
+    <body>
+      <trans-unit id="4Ba-Rt-DTK.text" xml:space="preserve">
+        <source>Username/Email</source>
+        <target>Nama Pengguna/Email</target>
+        <note>Class = "UILabel"; text = "Username/Email"; ObjectID = "4Ba-Rt-DTK";</note>
+      </trans-unit>
+      <trans-unit id="Hom-Fb-mtt.text" xml:space="preserve">
+        <source>Request</source>
+        <target>Kirim</target>
+        <note>Class = "UILabel"; text = "Request"; ObjectID = "Hom-Fb-mtt";</note>
+      </trans-unit>
+      <trans-unit id="KqP-2I-GmP.text" xml:space="preserve">
+        <source>Request New Device</source>
+        <target>Permintaan Perangkat Baru</target>
+        <note>Class = "UILabel"; text = "Request New Device"; ObjectID = "KqP-2I-GmP";</note>
+      </trans-unit>
+      <trans-unit id="kXI-sG-LH0.text" xml:space="preserve">
+        <source>Password</source>
+        <target>Kata Sandi</target>
+        <note>Class = "UILabel"; text = "Password"; ObjectID = "kXI-sG-LH0";</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

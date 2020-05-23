@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Unggah File"; ObjectID = "3sh-YY-avb"; */
+"3sh-YY-avb.text" = "Upload File";
+
+/* Class = "UILabel"; text = "Ambil Foto"; ObjectID = "4pm-Ja-iET"; */
+"4pm-Ja-iET.text" = "Take Photo";
+
+/* Class = "UILabel"; text = "Unggah Dokumen"; ObjectID = "LVo-UO-hV4"; */
+"LVo-UO-hV4.text" = "Upload Document";
+
+/* Class = "UILabel"; text = "Pilih dari Album Foto"; ObjectID = "Ly0-sd-vFm"; */
+"Ly0-sd-vFm.text" = "Pick from Gallery";

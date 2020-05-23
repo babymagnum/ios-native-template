@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NotifikasiCell" customModule="Eoviz_Presence" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="117"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="117"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p3q-dw-CeY" customClass="CustomView" customModule="Eoviz_Presence" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="117"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14/02/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gw3-4t-fh5" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                <rect key="frame" x="17" y="15" width="341" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="JFp-Uu-aXH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Roboto-Medium"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ar0-SW-EMc">
+                                <rect key="frame" x="17" y="35" width="341" height="22.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pengajuan Tukar Shift" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnI-wg-y1x" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="22.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.20392156859999999" green="0.4941176471" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-SemiBold"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="12"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0VK-1E-pCs" customClass="CustomView" customModule="Eoviz_Presence" customModuleProvider="target">
+                                        <rect key="frame" x="333" y="7.5" width="8" height="8"/>
+                                        <color key="backgroundColor" red="0.95686274509803915" green="0.34509803921568627" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="8" id="Q5B-Li-mr7"/>
+                                            <constraint firstAttribute="width" constant="8" id="rDr-3F-UEm"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="NnI-wg-y1x" secondAttribute="bottom" id="5Zp-ON-1cW"/>
+                                    <constraint firstItem="0VK-1E-pCs" firstAttribute="leading" secondItem="NnI-wg-y1x" secondAttribute="trailing" constant="10" id="9Ne-gY-uFj"/>
+                                    <constraint firstItem="NnI-wg-y1x" firstAttribute="leading" secondItem="Ar0-SW-EMc" secondAttribute="leading" id="CYp-JP-aT0"/>
+                                    <constraint firstItem="NnI-wg-y1x" firstAttribute="top" secondItem="Ar0-SW-EMc" secondAttribute="top" id="aM8-1w-lnH"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1000" id="lle-7V-hgh"/>
+                                    <constraint firstAttribute="trailing" secondItem="0VK-1E-pCs" secondAttribute="trailing" id="oRK-hV-BRY"/>
+                                    <constraint firstItem="0VK-1E-pCs" firstAttribute="centerY" secondItem="Ar0-SW-EMc" secondAttribute="centerY" id="zhq-cU-a7k"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pengajuan tukar shift Anda sedang diproses. aklsjdka jsd" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yr7-vq-EiK" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                <rect key="frame" x="17" y="59.5" width="341" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.1450980392" green="0.21176470589999999" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-SemiBold"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ar0-SW-EMc" firstAttribute="top" secondItem="Gw3-4t-fh5" secondAttribute="bottom" constant="2" id="5LB-jm-vAR"/>
+                            <constraint firstAttribute="trailing" secondItem="yr7-vq-EiK" secondAttribute="trailing" constant="17" id="5wr-8j-97f"/>
+                            <constraint firstItem="Gw3-4t-fh5" firstAttribute="top" secondItem="p3q-dw-CeY" secondAttribute="top" constant="15" id="6Ww-Et-QIj"/>
+                            <constraint firstItem="Ar0-SW-EMc" firstAttribute="leading" secondItem="p3q-dw-CeY" secondAttribute="leading" constant="17" id="BHs-Kf-Ie5"/>
+                            <constraint firstItem="yr7-vq-EiK" firstAttribute="leading" secondItem="p3q-dw-CeY" secondAttribute="leading" constant="17" id="Fpt-ZX-y1K"/>
+                            <constraint firstItem="Gw3-4t-fh5" firstAttribute="leading" secondItem="p3q-dw-CeY" secondAttribute="leading" constant="17" id="HoT-Fa-UWi"/>
+                            <constraint firstAttribute="trailing" secondItem="Gw3-4t-fh5" secondAttribute="trailing" constant="17" id="J7E-Ez-EsD"/>
+                            <constraint firstItem="yr7-vq-EiK" firstAttribute="top" secondItem="Ar0-SW-EMc" secondAttribute="bottom" constant="2" id="T4o-ki-kXS"/>
+                            <constraint firstAttribute="trailing" secondItem="Ar0-SW-EMc" secondAttribute="trailing" constant="17" id="qWm-xW-LIP"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="useShadow" value="NO"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="p3q-dw-CeY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="QSS-Cz-rvW"/>
+                <constraint firstItem="p3q-dw-CeY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gvM-mp-Ule"/>
+                <constraint firstAttribute="trailing" secondItem="p3q-dw-CeY" secondAttribute="trailing" id="leM-pV-Jfe"/>
+                <constraint firstAttribute="bottom" secondItem="p3q-dw-CeY" secondAttribute="bottom" id="ro4-xs-kI7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="labelContent" destination="yr7-vq-EiK" id="fsp-6E-AqB"/>
+                <outlet property="labelDate" destination="Gw3-4t-fh5" id="9or-e5-aOb"/>
+                <outlet property="labelTitle" destination="NnI-wg-y1x" id="uqJ-iM-4gW"/>
+                <outlet property="viewRedDot" destination="0VK-1E-pCs" id="g5b-fk-332"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="121"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Username/Email"; ObjectID = "4Ba-Rt-DTK"; */
+"4Ba-Rt-DTK.text" = "Nama Pengguna/Email";
+
+/* Class = "UILabel"; text = "Request"; ObjectID = "Hom-Fb-mtt"; */
+"Hom-Fb-mtt.text" = "Kirim";
+
+/* Class = "UILabel"; text = "Request New Device"; ObjectID = "KqP-2I-GmP"; */
+"KqP-2I-GmP.text" = "Permintaan Perangkat Baru";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "kXI-sG-LH0"; */
+"kXI-sG-LH0.text" = "Kata Sandi";

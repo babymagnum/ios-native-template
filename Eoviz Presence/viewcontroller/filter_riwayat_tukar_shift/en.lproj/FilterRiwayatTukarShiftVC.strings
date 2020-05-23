@@ -1,0 +1,20 @@
+
+/* Class = "UILabel"; text = "Tahun"; ObjectID = "6Q2-jt-szS"; */
+"6Q2-jt-szS.text" = "Year";
+
+/* Class = "UILabel"; text = "Terapkan"; ObjectID = "OgP-1I-oPI"; */
+"OgP-1I-oPI.text" = "Apply";
+
+/* Class = "UILabel"; text = "2020"; ObjectID = "Okr-tm-3Yn"; */
+"Okr-tm-3Yn.text" = "2020";
+
+/* Class = "UILabel"; text = "Filter"; ObjectID = "ZJF-vV-xP5"; */
+"ZJF-vV-xP5.text" = "Filter";
+
+/* Class = "UILabel"; text = "Semua"; ObjectID = "v0b-0l-3kZ"; */
+"v0b-0l-3kZ.text" = "Semua";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "vT7-py-Rf7"; */
+"vT7-py-Rf7.text" = "Status";
+
+"eiK-Ss-Efi.text" = "Apply";

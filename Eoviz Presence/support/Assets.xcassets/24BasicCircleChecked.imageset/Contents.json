@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "scale" : "1x",
+      "idiom" : "universal",
+      "filename" : "24BasicCircleChecked.png"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "24BasicCircleChecked@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "scale" : "3x",
+      "filename" : "24BasicCircleChecked@3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

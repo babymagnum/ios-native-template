@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Unit Kerja"; ObjectID = "76x-DP-WBa"; */
+"76x-DP-WBa.text" = "Work Unit";
+
+/* Class = "UILabel"; text = "Tukar Shift"; ObjectID = "8jl-51-P6q"; */
+"8jl-51-P6q.text" = "Change Shift";
+
+/* Class = "UILabel"; text = "Alasan"; ObjectID = "AE2-Yl-zGM"; */
+"AE2-Yl-zGM.text" = "Reason";
+
+/* Class = "UILabel"; text = "Pegawai"; ObjectID = "DwT-1f-0EO"; */
+"DwT-1f-0EO.text" = "Employe";
+
+/* Class = "UILabel"; text = "Simpan"; ObjectID = "xPG-ob-rEw"; */
+"xPG-ob-rEw.text" = "Save";
+
+/* Class = "UILabel"; text = "Tanggal yang sama"; ObjectID = "Md1-2f-xz5"; */
+"Md1-2f-xz5.text" = "Same date";
+
+/* Class = "UILabel"; text = "Kirim"; ObjectID = "I1N-ZF-h1m"; */
+"I1N-ZF-h1m.text" = "Send";
+
+/* Class = "UILabel"; text = "Tanggal Shift Awal"; ObjectID = "kgu-iH-xdK"; */
+"kgu-iH-xdK.text" = "Initial Shift Date";
+
+/* Class = "UILabel"; text = "Sandra Wijaya"; ObjectID = "QfM-Xg-m38"; */
+"QfM-Xg-m38.text" = "Sandra Wijaya";
+
+/* Class = "UILabel"; text = "14/02/2020"; ObjectID = "QhG-aC-6vA"; */
+"QhG-aC-6vA.text" = "14/02/2020";
+
+/* Class = "UILabel"; text = "Corporate Business Solution"; ObjectID = "VBd-kd-ZH4"; */
+"VBd-kd-ZH4.text" = "Corporate Business Solution";
+
+/* Class = "UILabel"; text = "Tanggal berbeda"; ObjectID = "ZI8-MH-W6h"; */
+"ZI8-MH-W6h.text" = "Different date";
+
+/* Class = "UILabel"; text = "Silahkan pilih tanggal lain, Anda mempunyai shift di tanggal tersebut. (pesan dari service)"; ObjectID = "f8p-iG-Nh1"; */
+"f8p-iG-Nh1.text" = "Silahkan pilih tanggal lain, Anda mempunyai shift di tanggal tersebut. (pesan dari service)";
+
+/* Class = "UILabel"; text = "Tanggal Tukar Shift"; ObjectID = "tI3-bO-4u5"; */
+"tI3-bO-4u5.text" = "Change Shift Date";
+
+/* Class = "UILabel"; text = "14/02/2020"; ObjectID = "vRU-lX-5so"; */
+"vRU-lX-5so.text" = "14/02/2020";

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomSheetIzinCutiVC" customModule="Eoviz_Presence" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewAmbilFoto" destination="vOC-9h-wfK" id="Tze-zg-QxX"/>
+                <outlet property="viewParent" destination="S8n-kE-XiR" id="BYH-VQ-kC2"/>
+                <outlet property="viewPilihAlbumFoto" destination="Tx2-5R-ijO" id="Zv1-0r-5tO"/>
+                <outlet property="viewUnggahDokumen" destination="lQT-ZA-mpx" id="lVk-cv-TLL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8n-kE-XiR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cCf-rp-Tyl" customClass="CustomView" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <rect key="frame" x="169" y="8" width="37" height="5"/>
+                            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="cCf-rp-Tyl" secondAttribute="height" multiplier="37:5" id="NRe-qq-miC"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isRoundedAllCorner" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unggah File" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sh-YY-avb" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <rect key="frame" x="30" y="41" width="315" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.14901960780000001" green="0.17254901959999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="14"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vOC-9h-wfK">
+                            <rect key="frame" x="30" y="84.5" width="315" height="20.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photoCamera" translatesAutoresizingMaskIntoConstraints="NO" id="Iyp-Mq-J0G">
+                                    <rect key="frame" x="0.0" y="-1" width="23" height="23"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Iyp-Mq-J0G" secondAttribute="height" multiplier="1:1" id="f5z-8n-IlZ"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ambil Foto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pm-Ja-iET" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                    <rect key="frame" x="34" y="0.0" width="281" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Regular"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="4pm-Ja-iET" secondAttribute="trailing" id="0gS-sZ-4Sg"/>
+                                <constraint firstItem="Iyp-Mq-J0G" firstAttribute="leading" secondItem="vOC-9h-wfK" secondAttribute="leading" id="LGk-SK-FPF"/>
+                                <constraint firstItem="4pm-Ja-iET" firstAttribute="leading" secondItem="Iyp-Mq-J0G" secondAttribute="trailing" constant="11" id="OBg-Sg-tQa"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="UBz-19-M2q" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                            <real key="value" value="0.059999999999999998"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </constraint>
+                                <constraint firstItem="Iyp-Mq-J0G" firstAttribute="width" secondItem="vOC-9h-wfK" secondAttribute="width" multiplier="0.0730159" id="YtB-79-I0J"/>
+                                <constraint firstItem="Iyp-Mq-J0G" firstAttribute="centerY" secondItem="vOC-9h-wfK" secondAttribute="centerY" id="hXP-tM-6qu"/>
+                                <constraint firstAttribute="bottom" secondItem="4pm-Ja-iET" secondAttribute="bottom" id="pNJ-n7-UuW"/>
+                                <constraint firstItem="4pm-Ja-iET" firstAttribute="top" secondItem="vOC-9h-wfK" secondAttribute="top" id="scP-8U-MbW"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tx2-5R-ijO">
+                            <rect key="frame" x="30" y="135" width="315" height="20.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photoLibrary" translatesAutoresizingMaskIntoConstraints="NO" id="azi-I6-p2P">
+                                    <rect key="frame" x="0.0" y="0.0" width="20.5" height="20.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="azi-I6-p2P" secondAttribute="height" multiplier="1:1" id="ic5-DJ-O2n"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pilih dari Album Foto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ly0-sd-vFm" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                    <rect key="frame" x="31.5" y="0.0" width="283.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Regular"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Ly0-sd-vFm" secondAttribute="trailing" id="Fx0-WW-PqL"/>
+                                <constraint firstAttribute="bottom" secondItem="azi-I6-p2P" secondAttribute="bottom" id="JSM-Xy-scY"/>
+                                <constraint firstItem="Ly0-sd-vFm" firstAttribute="leading" secondItem="azi-I6-p2P" secondAttribute="trailing" constant="11" id="Jdf-OW-h7q"/>
+                                <constraint firstItem="Ly0-sd-vFm" firstAttribute="top" secondItem="Tx2-5R-ijO" secondAttribute="top" id="Ti9-vr-2R9"/>
+                                <constraint firstItem="azi-I6-p2P" firstAttribute="top" secondItem="Tx2-5R-ijO" secondAttribute="top" id="laa-lx-ZMP"/>
+                                <constraint firstItem="azi-I6-p2P" firstAttribute="leading" secondItem="Tx2-5R-ijO" secondAttribute="leading" id="nKu-TU-5VW"/>
+                                <constraint firstAttribute="bottom" secondItem="Ly0-sd-vFm" secondAttribute="bottom" id="nzl-5R-XHR"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="xm1-n1-5kj" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                            <real key="value" value="0.059999999999999998"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </constraint>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQT-ZA-mpx">
+                            <rect key="frame" x="30" y="185.5" width="315" height="20.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="file21" translatesAutoresizingMaskIntoConstraints="NO" id="SOu-WU-YOE">
+                                    <rect key="frame" x="0.0" y="0.0" width="20.5" height="20.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="SOu-WU-YOE" secondAttribute="height" multiplier="1:1" id="4up-AY-mRE"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unggah Dokumen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVo-UO-hV4" customClass="CustomLabel" customModule="Eoviz_Presence" customModuleProvider="target">
+                                    <rect key="frame" x="31.5" y="0.0" width="283.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Regular"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="14"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="LVo-UO-hV4" firstAttribute="top" secondItem="lQT-ZA-mpx" secondAttribute="top" id="2JH-9t-HCO"/>
+                                <constraint firstAttribute="bottom" secondItem="SOu-WU-YOE" secondAttribute="bottom" id="5gb-v8-Uqh"/>
+                                <constraint firstItem="SOu-WU-YOE" firstAttribute="top" secondItem="lQT-ZA-mpx" secondAttribute="top" id="Lbu-JU-A5n"/>
+                                <constraint firstAttribute="trailing" secondItem="LVo-UO-hV4" secondAttribute="trailing" id="Lmt-qe-SAF"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" id="cdG-df-ymP" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                            <real key="value" value="0.059999999999999998"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </constraint>
+                                <constraint firstItem="LVo-UO-hV4" firstAttribute="leading" secondItem="SOu-WU-YOE" secondAttribute="trailing" constant="11" id="slh-8P-4Lw"/>
+                                <constraint firstItem="SOu-WU-YOE" firstAttribute="leading" secondItem="lQT-ZA-mpx" secondAttribute="leading" id="woL-Wg-YvD"/>
+                                <constraint firstAttribute="bottom" secondItem="LVo-UO-hV4" secondAttribute="bottom" id="ya1-KM-6Yc"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="cCf-rp-Tyl" firstAttribute="centerX" secondItem="S8n-kE-XiR" secondAttribute="centerX" id="0Yd-dd-sav"/>
+                        <constraint firstAttribute="trailing" secondItem="vOC-9h-wfK" secondAttribute="trailing" constant="30" id="3RM-oV-j8s"/>
+                        <constraint firstItem="vOC-9h-wfK" firstAttribute="leading" secondItem="S8n-kE-XiR" secondAttribute="leading" constant="30" id="7CX-t2-a82"/>
+                        <constraint firstItem="3sh-YY-avb" firstAttribute="top" secondItem="cCf-rp-Tyl" secondAttribute="bottom" constant="28" id="E7l-VU-0Kc" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                    <real key="value" value="0.070000000000000007"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                        <constraint firstItem="vOC-9h-wfK" firstAttribute="top" secondItem="3sh-YY-avb" secondAttribute="bottom" constant="23" id="ILm-oP-TOP" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                    <real key="value" value="0.070000000000000007"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                        <constraint firstAttribute="trailing" secondItem="lQT-ZA-mpx" secondAttribute="trailing" constant="30" id="Iym-Nh-gOp"/>
+                        <constraint firstAttribute="trailing" secondItem="3sh-YY-avb" secondAttribute="trailing" constant="30" id="WYh-ra-3ES"/>
+                        <constraint firstItem="Tx2-5R-ijO" firstAttribute="top" secondItem="vOC-9h-wfK" secondAttribute="bottom" constant="30" id="XuT-4b-udV" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                    <real key="value" value="0.070000000000000007"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                        <constraint firstItem="cCf-rp-Tyl" firstAttribute="top" secondItem="S8n-kE-XiR" secondAttribute="top" constant="8" id="h4R-PR-f4T"/>
+                        <constraint firstItem="Tx2-5R-ijO" firstAttribute="leading" secondItem="S8n-kE-XiR" secondAttribute="leading" constant="30" id="imk-wd-dsP"/>
+                        <constraint firstItem="lQT-ZA-mpx" firstAttribute="leading" secondItem="S8n-kE-XiR" secondAttribute="leading" constant="30" id="kIA-IT-fgK"/>
+                        <constraint firstItem="lQT-ZA-mpx" firstAttribute="top" secondItem="Tx2-5R-ijO" secondAttribute="bottom" constant="30" id="kwl-WH-NBE"/>
+                        <constraint firstItem="3sh-YY-avb" firstAttribute="leading" secondItem="S8n-kE-XiR" secondAttribute="leading" constant="30" id="omj-qx-Kwq"/>
+                        <constraint firstItem="cCf-rp-Tyl" firstAttribute="width" secondItem="S8n-kE-XiR" secondAttribute="width" multiplier="0.0986667" id="rDF-xE-wfR"/>
+                        <constraint firstAttribute="trailing" secondItem="Tx2-5R-ijO" secondAttribute="trailing" constant="30" id="ya8-ZI-ecp"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                            <real key="value" value="50"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="S8n-kE-XiR" secondAttribute="bottom" id="DCO-dw-nCE"/>
+                <constraint firstItem="SOu-WU-YOE" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.055" id="i2m-QN-4Lh"/>
+                <constraint firstItem="S8n-kE-XiR" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="wZl-bu-usE"/>
+                <constraint firstItem="S8n-kE-XiR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="x80-9j-eK2"/>
+                <constraint firstItem="S8n-kE-XiR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="xKC-Zj-HLY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="115"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="file21" width="16" height="16"/>
+        <image name="photoCamera" width="17" height="14"/>
+        <image name="photoLibrary" width="17" height="16"/>
+    </resources>
+</document>

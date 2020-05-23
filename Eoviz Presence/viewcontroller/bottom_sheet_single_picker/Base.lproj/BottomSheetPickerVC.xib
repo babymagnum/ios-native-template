@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomSheetPickerVC" customModule="Eoviz_Presence" customModuleProvider="target">
+            <connections>
+                <outlet property="firstPickerView" destination="VGW-xk-Taf" id="t7v-aE-rRf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="245"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHK-Cq-Fjv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="245"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2aY-F6-FmD" customClass="CustomView" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <rect key="frame" x="169" y="8" width="37" height="5"/>
+                            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isRoundedAllCorner" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <pickerView contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="VGW-xk-Taf">
+                            <rect key="frame" x="30" y="13" width="315" height="161"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </pickerView>
+                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="255" verticalCompressionResistancePriority="755" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qaf-lv-d0Y" customClass="CustomButton" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <rect key="frame" x="30" y="184" width="315" height="41"/>
+                            <color key="backgroundColor" red="0.20392156859999999" green="0.4941176471" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="xvT-jA-nav" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                            <real key="value" value="0.11"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </constraint>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="12"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                            <state key="normal" title="Pilih">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Poppins-Medium"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="16"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="buttonPilihClick:" destination="-1" eventType="touchUpInside" id="RwE-af-gem"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="VGW-xk-Taf" secondAttribute="trailing" constant="30" id="4QU-hB-qFH"/>
+                        <constraint firstItem="qaf-lv-d0Y" firstAttribute="leading" secondItem="dHK-Cq-Fjv" secondAttribute="leading" constant="30" id="6dG-ZY-Dv6"/>
+                        <constraint firstAttribute="bottom" secondItem="qaf-lv-d0Y" secondAttribute="bottom" constant="20" id="CAA-S1-oWR" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                    <real key="value" value="0.050000000000000003"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                        <constraint firstItem="2aY-F6-FmD" firstAttribute="centerX" secondItem="dHK-Cq-Fjv" secondAttribute="centerX" id="Evv-po-LZj"/>
+                        <constraint firstItem="qaf-lv-d0Y" firstAttribute="top" secondItem="VGW-xk-Taf" secondAttribute="bottom" constant="10" id="IRl-MD-bMX" customClass="CustomMargin" customModule="Eoviz_Presence" customModuleProvider="target">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="multi">
+                                    <real key="value" value="0.040000000000000001"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </constraint>
+                        <constraint firstItem="2aY-F6-FmD" firstAttribute="width" secondItem="2aY-F6-FmD" secondAttribute="height" multiplier="37:5" id="IuR-JB-SjZ"/>
+                        <constraint firstItem="2aY-F6-FmD" firstAttribute="top" secondItem="dHK-Cq-Fjv" secondAttribute="top" constant="8" id="RgG-Fw-ucF"/>
+                        <constraint firstItem="VGW-xk-Taf" firstAttribute="top" secondItem="2aY-F6-FmD" secondAttribute="bottom" id="loF-fg-7Fc"/>
+                        <constraint firstAttribute="trailing" secondItem="qaf-lv-d0Y" secondAttribute="trailing" constant="30" id="pJH-iS-trW"/>
+                        <constraint firstItem="VGW-xk-Taf" firstAttribute="leading" secondItem="dHK-Cq-Fjv" secondAttribute="leading" constant="30" id="zRi-lw-TrJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="dHK-Cq-Fjv" firstAttribute="bottom" secondItem="jJm-v0-hWK" secondAttribute="bottom" id="GbB-ux-bDz"/>
+                <constraint firstItem="dHK-Cq-Fjv" firstAttribute="top" secondItem="jJm-v0-hWK" secondAttribute="top" id="KFa-YP-Qg9"/>
+                <constraint firstItem="2aY-F6-FmD" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.0986667" id="V6S-K9-4mg"/>
+                <constraint firstItem="dHK-Cq-Fjv" firstAttribute="leading" secondItem="jJm-v0-hWK" secondAttribute="leading" id="cdo-qK-0q6"/>
+                <constraint firstItem="dHK-Cq-Fjv" firstAttribute="trailing" secondItem="jJm-v0-hWK" secondAttribute="trailing" id="zmJ-OX-JA4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="jJm-v0-hWK"/>
+            <point key="canvasLocation" x="132" y="119.1904047976012"/>
+        </view>
+    </objects>
+</document>

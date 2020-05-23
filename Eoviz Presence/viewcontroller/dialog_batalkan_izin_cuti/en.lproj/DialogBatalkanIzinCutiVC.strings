@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Batalkan"; ObjectID = "1NI-gh-dEd"; */
+"1NI-gh-dEd.text" = "Cancel";
+
+/* Class = "UILabel"; text = "Yakin ingin membatalkan cuti/izin?"; ObjectID = "41T-nx-QFb"; */
+"41T-nx-QFb.text" = "Are you sure want to cancel your leave/permission?";
+
+/* Class = "UILabel"; text = "Kembali"; ObjectID = "PM3-tc-NCz"; */
+"PM3-tc-NCz.text" = "Back";

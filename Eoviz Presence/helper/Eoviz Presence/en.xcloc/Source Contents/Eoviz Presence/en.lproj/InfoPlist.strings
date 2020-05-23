@@ -1,0 +1,12 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Eoviz Presence";
+/* Bundle name */
+"CFBundleName" = "Eoviz Presence";
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "We need your camera access to take photo";
+/* Privacy - Location Usage Description */
+"NSLocationUsageDescription" = "We need your location to draw marker in maps.";
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "We need your location to draw marker in maps.";
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "We need your photo library access to accesing photo library";
